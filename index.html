@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oleksii Korovushkin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <figure class = "photo">
+        <img src="img/ава1.jpg" alt="Мое фото" width="131" height="164">
+      </figure>
+      <div class = "info">
+        <h1>Oleksii Korovushkin</h1>
+        <ul class="contacts">
+          <li>tel: +38(098)0462829,</li>
+          <li>email: <a href="mailto:alexkrv07@gmail.com">alexkrv07@gmail.com</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class = "about">
+        <h2>About me</h2>
+        <p class = "content">I want to change the scope of activity, so I learn the Front-end/JavaScript course to get a job offer in frontend/backend/fullstack development</p>
+      </section>
+      <section class = "skiis">
+        <h2>Skills:</h2>
+        <ul class="skills-list">
+          <li class="skills-item">C/C++: beginner</li>
+          <li class="skills-item">Javascript: beginner</li>
+          <li class="skills-item">HTML/CSS: beginner</li>
+          <li class="skills-item">Git/GitHub: beginner</li>
+        </ul>
+      </section>
+      <section class = "code">
+        <h2>Example of code:</h2>
+        <pre><code>
+          /*написать программу принимающую три ненулевых значения  определить, могут ли эти числа быть сторонами треугольника*/
+          int main()
+          {
+            float a, b, c;
+
+            printf("Введите три ненулевых значения в вида 0.0:");
+            scanf("%f%f%f", &a, &b, &c);
+
+            if ((a + b) > c) {
+                if ((a + c) > b) {
+                  if ((c + b) > a)
+                      printf("Введенные числа могут быть значениями сторон треугольника\n");
+                }
+            }
+            else
+                printf ("Введенные числа не могут быть значениями сторон треугольника\n");
+          }
+        </code></pre>
+      </section>
+      <section class = "courses">
+        <h2>Courses:</h2>
+        <ul class = "courses-list">
+          <li class="courses-item">CS50 online</li>
+        </ul>
+      </section>
+      <section class = "english">
+        <h2>English level:</h2>
+        <p class = "content">A2 (Pre-Intermediate)</p>
+      </section>
+  
+    </main>
+    <footer>
+      <div class="logo">
+        <a href="https://rs.school/js/" target="_blank">
+          <img class="rss-logo" src="icons/rs_school_js.svg" alt="Логотип курса" height="30">
+        </a>
+      </div>
+
+      <div class="developed">
+        Created in 2021
+      </div>
+      <div class="profile">
+        <div class="github">
+          <a href="https://github.com/alexkrv07" target="_blank"> 
+            <img class="github-logo" src="icons/icons8-github-100.png" alt="Ссылка на профиль в GitHub"  height="30">
+          </a>
+        </div>
+        <div class="youtube">
+          <a href="#" target="_blank">
+            <img class="youtube-logo" src="icons/YouTube_full-color_icon_(2017).svg" alt="Ссылка на видео с самооценкой"  height="30">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
