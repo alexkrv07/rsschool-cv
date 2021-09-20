@@ -1,0 +1,12 @@
+$base-width: 1440px;
+$header-nav-width: 720px;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: $base-width;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
