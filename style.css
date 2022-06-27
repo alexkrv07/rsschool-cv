@@ -33,7 +33,6 @@ body {
 .header .container,
 .footer .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   height: 80px;
@@ -141,7 +140,7 @@ body {
   text-transform: uppercase;
   transition: .3s;
 }
- 
+
 .main {
   width: 100%;
   margin: 80px 0 0;
@@ -337,7 +336,7 @@ body {
   color: #003147;
 }
 
-.footer, 
+.footer,
 .header {
   width: 100%;
   background-color: #0e2431;
@@ -365,7 +364,7 @@ body {
     font-size: 0.8em;
     line-height: 0.8em;
   }
-  
+
   .header-title p {
     font-size: 0.6em;
   }
@@ -430,7 +429,7 @@ body {
     margin-top: 50px;
   }
 
-  .left-side, 
+  .left-side,
   .right-side {
     width: 100%;
     padding: 10px 0;
@@ -447,5 +446,3 @@ body {
     align-items: center;
   }
 }
-
-
